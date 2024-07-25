@@ -95,3 +95,20 @@ a:hover{
 .week-sec{
     background-image: url(./IMAGES/sincerely-media-vZpHj0FyhnY-unsplash.jpg);
 }
+
+#sp-week{
+    width: 100px;
+    height: auto;
+    padding: 0px 5px 10px 10px;
+    border-radius: 100%;
+    border: solid;
+    margin: 0px 9px;
+    color: black;
+    border-color: black;
+    border-bottom-width: 5px;
+    font-size: 30px;
+}
+
+#h1-week{
+    color: black;
+}
