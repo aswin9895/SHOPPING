@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-#container{
+#container {
     width: 100%;
 }
 
-.home-header{
+.home-header {
     background-color: #191717;
 }
 
 
-.navbar-home{
+.navbar-home {
     display: flex;
     justify-content: space-evenly;
 
 }
 
 /* carousel */
-.c-img{
+.c-img {
     height: 100vh;
 }
 
-.head-c{
+.head-c {
     font-size: 85px;
     color: orange;
     font-weight: 800;
@@ -35,7 +35,7 @@
     z-index: 1;
 }
 
-.para-c{
+.para-c {
     font-size: 40px;
     color: #DAA520;
     font-weight: 600;
@@ -48,55 +48,48 @@
 
 /*  */
 
-.h-personal{
+.h-personal {
     font-size: 40px;
     font-weight: 700;
     color: #778899;
 }
 
-.per-sec{
+.per-sec {
     background-image: url(./IMAGES/bg-per.jpg);
 }
 
-/* .btn{
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-} */
-
-.street-sec{
+.street-sec {
     background-image: url(./IMAGES/str-bg.jpg);
 }
 
-#street-head{
+#street-head {
     color: white;
-    font-family: "DM Serif Display", serif;}
+    font-family: "DM Serif Display", serif;
+}
 
-.span-str{
+.span-str {
     color: #DAA520;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     padding: 20px;
-    /* font-size: 30px; */
-    /* margin: 10px; */
     transition: 1s;
-    
+
 }
 
-.top-sec{
+.top-sec {
     background-image: url(https://plus.unsplash.com/premium_photo-1701090940014-320b715b5a8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
-.week-sec{
+.week-sec {
     background-image: url(./IMAGES/sincerely-media-vZpHj0FyhnY-unsplash.jpg);
 }
 
-#sp-week{
+#sp-week {
     width: 100px;
     height: auto;
     padding: 0px 5px 10px 10px;
@@ -109,6 +102,32 @@ a:hover{
     font-size: 30px;
 }
 
-#h1-week{
+#h1-week {
     color: black;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.li-foot {
+    background-color: transparent;
+    color: gray;
+    border: none;
+    border-bottom: solid 1px gray;
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+}
+
+.list-foot {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.link-foot {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }

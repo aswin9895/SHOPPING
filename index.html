@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SANTAGLORIA</title>
+  <title>FASHIONISTA</title>
   <!-- css link  -->
   <link rel="stylesheet" href="./style.css">
   <!-- bootstrap link  -->
@@ -20,11 +20,11 @@
 <body>
   <div id="container">
     <!-- home with navbar -->
-    <header class="home-header">
+    <header id="header-home" class="home-header">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg bg-body-transparent p-3">
         <div class="container-fluid navbar-home">
-          <a id="santa" class="navbar-brand text-warning fs-3 fw-bold" href="#">SANTAGLORIA</a>
+          <a id="santa" class="navbar-brand text-warning fs-3 fw-bold" href="#">FASHIONISTA</a>
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -40,277 +40,613 @@
                 <a class="nav-link fs-5 p-4 text-light" aria-current="page" href="#carouselExampleDark">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 p-4 text-light" href="#">Contact</a>
+                <a class="nav-link fs-5 p-4 text-light" href="#foot">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold p-4 text-light" href="#">Cart <i
-                    class="fa-solid fa-cart-shopping text-light"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- carousel -->
-      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./IMAGES/c1.jpg" class="d-block w-100 c-img" alt="...">
-            <h5 class="head-c d-md-block">LATEST ARRIVALS</h5>
-            <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
-            <div class="carousel-caption d-none d-md-block">
-              <!-- <h5 class="head-c">LATEST ARRIVALS</h5> -->
-              <!-- <p class="para-c">Explore the latest collections for everyone</p> -->
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./IMAGES/c2.jpg" class="d-block w-100 c-img" alt="...">
-            <h5 class="head-c">LATEST ARRIVALS</h5>
-            <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
-            <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p> -->
-            </div>
-          </div>
-          <div class="carousel-item active" data-bs-interval="2000">
-            <img src="./IMAGES/c3.jpg" class="d-block w-100 c-img" alt="...">
-            <h5 class="head-c">LATEST ARRIVALS</h5>
-            <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
-            <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p> -->
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./IMAGES/c4.jpg" class="d-block w-100 c-img" alt="...">
-            <h5 class="head-c">LATEST ARRIVALS</h5>
-            <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
-            <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p> -->
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./IMAGES/c5.jpg" class="d-block w-100 c-img" alt="...">
-            <h5 class="head-c">LATEST ARRIVALS</h5>
-            <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
-            <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p> -->
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </header>
-    <!-- personal collection -->
-    <section class="container-fluid per-sec p-5">
-      <div class="row">
-        <div class="col">
-        </div>
-        <div class="col-lg-4">
-          <h1 class="align-center h-personal">PERSONAL COLLECTION</h1>
-        </div>
-        <div class="col">
-        </div>
-      </div>
-      <!-- img -->
-      <div class="row mt-5">
-        <div class="col-lg-3 pt-3">
-          <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p1.jpg" alt=""></a>
-        </div>
-        <div class="col"></div>
-        <div class="col-lg-3 pt-3">
-          <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p2.jpg" alt=""></a>
-        </div>
-        <div class="col"></div>
-        <div class="col-lg-3 pt-3">
-          <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p3.jpg" alt=""></a>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col"></div>
-        <div class="col-lg-4 pt-3">
-          <a href="https://boogzelclothing.com/"> <img width="100%" height="650px" class="per-img" src="./IMAGES/p4.jpg" alt="">
-          </a>
-        </div>
-        <div class="col"></div>
-        <div class="col-lg-4 pt-3">
-          <a href="https://boogzelclothing.com/"><img width="100%" height="650px" class="per-img" src="./IMAGES/p5.jpg" alt=""></a>
-        </div>
-        <div class="col"></div>
-      </div>
-      <div class="d-flex justify-content-center mt-5">
-        <button
-          class="btn bg-warning align-center text-light pt-1 pb-1 ps-4 pe-4 fs-3 fw-bold btn-outline-secondary">Browse</button>
-      </div>
-    </section>
-    <!-- street collection -->
-    <section class="container-fluid street-sec p-5">
-      <div class="row">
-        <div class="col-lg-3">
-          <a href="" class="" data-bs-toggle="modal"
-          data-bs-target="#exampleModall"><img class="pt-3" width="100%" height="600px" src="./IMAGES/s1.jpg" alt=""></a>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content bg-secondary">
-                <div class="modal-header bg-secondary">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">STREET TOP AND PANTS</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <a href="#" class="nav-link fs-5 fw-bold p-4 text-light" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalToggle">Cart <i
+                    class="fa-solid fa-cart-shopping text-light position-relative"><span style="font-size: 10px;"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      5
+                      <span class="visually-hidden">unread messages</span></i></a>
+                <!-- modal -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+                    <div class="modal-content bg-light">
+                      <div class="modal-header bg-light">
+                        <h1 class="modal-title fs-2 text-warning" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                          <h5 class="fs-3 text-dark">JACKET</h5>
+                          <img class="img-fluid w-25" src="./IMAGES/JACKET.jpg" alt="">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-light bg-secondary">REMOVE</button>
+                            <button type="button" class="btn text-light bg-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                              NOW</button>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center flex-wrap p-3">
+                          <h5 class="fs-3 text-dark">HOODIE</h5>
+                          <img class="img-fluid w-25" src="./IMAGES/HOODIE.jpg" alt="">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-light bg-secondary">REMOVE</button>
+                            <button type="button" class="btn text-light bg-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                              NOW</button>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                          <h5 class="fs-3 text-dark">TSHIRT</h5>
+                          <img class="img-fluid w-25" src="./IMAGES/TSHIRT.jpg" alt="">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-light bg-secondary">REMOVE</button>
+                            <button type="button" class="btn text-light bg-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                              NOW</button>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                          <h5 class="fs-3 text-dark">SWEATER</h5>
+                          <img class="img-fluid w-25" src="./IMAGES/SWEATER.jpg" alt="">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-light bg-secondary">REMOVE</button>
+                            <button type="button" class="btn text-light bg-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                              NOW</button>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center p-3">
+                          <h5 class="fs-3 text-dark">BAG</h5>
+                          <img class="img-fluid w-25" src="./IMAGES/BAGS.jpg" alt="">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-light bg-secondary">REMOVE</button>
+                            <button type="button" class="btn text-light bg-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                              NOW</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BUY
+                          ALL</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a style="text-decoration: none;" class="active text-light" href="">M</a> | <a style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;" class="text-light" href="">XL</a><br>
-                  <p class="fs-4 text-info pt-3">USD: .99.99</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">BUY NOW</button>
-                </div>
-              </div>
-            </div>
-          </div>
 
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header bg-secondary">
+                        <h1 class="modal-title fs-1 text-warning" id="exampleModalToggleLabel2">DELIVER TO</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button> -->
+                      </div>
+                      <div class="modal-body text-center bg-dark">
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="Full Name &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text"
+                            placeholder="Phone Number &#8594;" name="" id=""></h5>
+                        <hr>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="House No &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="Road Name &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="Landmark &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="State &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="City &#8594;"
+                            name="" id=""></h5>
+                        <h5 class="text-center p-3"><input class="li-foot" type="text" placeholder="Pincode &#8594;"
+                            name="" id=""></h5>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle3"
+                          data-bs-toggle="modal">CONTINUE</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle3" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header bg-secondary">
+                        <h1 class="modal-title fs-1 text-warning" id="exampleModalToggleLabel2">PAYMENT</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button> -->
+                      </div>
+                      <div class="modal-body text-center bg-dark">
+                        <h1 class="fs-1 fw-bold text-light">Total Amount: <span class="text-warning">270$</span></h1>
+                        <label class="pt-5 text-light" for="netb">Net Banking</label><br>
+                        <select name="" id="netb">
+                          <option selected hidden disabled value="">NET BANKING</option>
+                          <option value="">HDFC Bank</option>
+                          <option value="">ICIC Bank</option>
+                          <option value="">STATE Bank OF INDIA</option>
+                        </select><br>
+                        <label class="pt-5 text-light" for="wallet">WALLETS</label><br>
+                        <select name="" id="wallet">
+                          <option selected hidden disabled value="">WALLETS</option>
+                          <option value="">PHONEPAY WALLET</option>
+                          <option value="">PAYTM WALLET</option>
+                        </select><br>
+                        <label class="pt-5 text-light" for="upi">UPI</label><br>
+                        <select name="" id="upi">
+                          <option selected hidden disabled value="">UPI</option>
+                          <option value="">GOOGLE PAY</option>
+                          <option class="bg-dark text-primary" value=""><a href="">Add Other UPI IDs</a></option>
+                        </select>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle4"
+                          data-bs-toggle="modal">PLACE ORDER</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle4" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    </div>
+                    <div class="modal-body text-center bg-dark">
+                      <h1 class="fs-1 fw-bold text-light">YOUR ORDER IS PLACED <i
+                          class="fa-regular fa-circle-check"></i></h1><br>
+                      <hr><br>
+                      <h5 class="fs-5 text-light">Thanks for shopping with us..</h5>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                        data-bs-toggle="modal">CONTINUE</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <!--  -->
+          </li>
+          </ul>
         </div>
-        <div class="col-lg-3">
-          <h1 id="street-head" class="pt-5 ps-5 pe-5 mt-5 fs-1 fw-bolder">BE <span class="span-str">THE
-              <br>LEGEND</span><br>OF THE <br>STREETS</h1>
-          <p class="pt-3 ps-5 pe-5 text-light fs-4">If you have a personal <br>brand - we would love <br>to help you
-            with <br>promotions.</p>
+  </div>
+  </nav>
+  <!-- carousel -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./IMAGES/c1.jpg" class="d-block w-100 c-img" alt="...">
+        <h5 class="head-c d-md-block">LATEST ARRIVALS</h5>
+        <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5 class="head-c">LATEST ARRIVALS</h5> -->
+          <!-- <p class="para-c">Explore the latest collections for everyone</p> -->
         </div>
-        <div class="col-lg-3">
-         <a href="" class="" data-bs-toggle="modal"
-         data-bs-target="#exampleModale"> <img class="pt-3"  width="100%" height="600px" src="./IMAGES/s2.jpg" alt=""></a>
-          <!-- !-- Modal -->
-          <div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content bg-secondary">
-                <div class="modal-header bg-secondary">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">FORMAL COAT AND SUITE</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a style="text-decoration: none;" class="active text-light" href="">M</a> | <a style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;" class="text-light" href="">XL</a><br>
-                  <p class="fs-4 text-info pt-3">USD: .99.99</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">BUY NOW</button>
-                </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./IMAGES/c2.jpg" class="d-block w-100 c-img" alt="...">
+        <h5 class="head-c">LATEST ARRIVALS</h5>
+        <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./IMAGES/c3.jpg" class="d-block w-100 c-img" alt="...">
+        <h5 class="head-c">LATEST ARRIVALS</h5>
+        <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./IMAGES/c4.jpg" class="d-block w-100 c-img" alt="...">
+        <h5 class="head-c">LATEST ARRIVALS</h5>
+        <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./IMAGES/c5.jpg" class="d-block w-100 c-img" alt="...">
+        <h5 class="head-c">LATEST ARRIVALS</h5>
+        <p class="para-c d-none d-md-block">Explore the latest collections for everyone</p>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </header>
+  <!-- personal collection -->
+  <section class="container-fluid per-sec p-5">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col-lg-4">
+        <h1 class="align-center h-personal">PERSONAL COLLECTION</h1>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <!-- img -->
+    <div class="row mt-5">
+      <div class="col-lg-3 pt-3">
+        <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p1.jpg"
+            alt=""></a>
+      </div>
+      <div class="col"></div>
+      <div class="col-lg-3 pt-3">
+        <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p2.jpg"
+            alt=""></a>
+      </div>
+      <div class="col"></div>
+      <div class="col-lg-3 pt-3">
+        <a href="https://boogzelclothing.com/"><img width="100%" height="600px" class="per-img" src="./IMAGES/p3.jpg"
+            alt=""></a>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col"></div>
+      <div class="col-lg-4 pt-3">
+        <a href="https://boogzelclothing.com/"> <img width="100%" height="650px" class="per-img" src="./IMAGES/p4.jpg"
+            alt="">
+        </a>
+      </div>
+      <div class="col"></div>
+      <div class="col-lg-4 pt-3">
+        <a href="https://boogzelclothing.com/"><img width="100%" height="650px" class="per-img" src="./IMAGES/p5.jpg"
+            alt=""></a>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <button
+        class="btn bg-warning align-center text-light pt-1 pb-1 ps-4 pe-4 fs-3 fw-bold btn-outline-secondary">Browse</button>
+    </div>
+  </section>
+  <!-- street collection -->
+  <section class="container-fluid street-sec p-5">
+    <div class="row">
+      <div class="col-lg-3">
+        <a href="" class="" data-bs-toggle="modal" data-bs-target="#exampleModall"><img class="pt-3" width="100%"
+            height="600px" src="./IMAGES/s1.jpg" alt=""></a>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+              <div class="modal-header bg-secondary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">STREET TOP AND PANTS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                  style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                  style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;"
+                  class="text-light" href="">XL</a><br>
+                <p class="fs-4 text-info pt-3">USD: .99.99</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <a href="" class="" data-bs-toggle="modal"
-          data-bs-target="#exampleModal"><img class="pt-3"  width="100%" height="600px" src="./IMAGES/s3.jpg" alt="" ></a>
-          <!-- !-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content bg-secondary">
-                <div class="modal-header bg-secondary">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">JACKET</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a style="text-decoration: none;" class="active text-light" href="">M</a> | <a style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;" class="text-light" href="">XL</a><br>
-                  <p class="fs-4 text-info pt-3">USD: .99.99</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">BUY NOW</button>
-                </div>
+
+      </div>
+      <div class="col-lg-3">
+        <h1 id="street-head" class="pt-5 ps-5 pe-5 mt-5 fs-1 fw-bolder">BE <span class="span-str">THE
+            <br>LEGEND</span><br>OF THE <br>STREETS</h1>
+        <p class="pt-3 ps-5 pe-5 text-light fs-4">If you have a personal <br>brand - we would love <br>to help you
+          with <br>promotions.</p>
+      </div>
+      <div class="col-lg-3">
+        <a href="" class="" data-bs-toggle="modal" data-bs-target="#exampleModale"> <img class="pt-3" width="100%"
+            height="600px" src="./IMAGES/s2.jpg" alt=""></a>
+        <!-- !-- Modal -->
+        <div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+              <div class="modal-header bg-secondary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">FORMAL COAT AND SUITE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                  style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                  style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;"
+                  class="text-light" href="">XL</a><br>
+                <p class="fs-4 text-info pt-3">USD: .99.99</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- top of the day -->
-     <section class="container-fluid top-sec p-5">
-       <div class="row ps-5 pe-5">
-        <div class="col-lg-5">
-          <img class="pt-5" width="100%" height="700px" src="./IMAGES/top.jpg" alt="">
+      <div class="col-lg-3">
+        <a href="" class="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="pt-3" width="100%"
+            height="600px" src="./IMAGES/s3.jpg" alt=""></a>
+        <!-- !-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+              <div class="modal-header bg-secondary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">JACKET</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                  style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                  style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;"
+                  class="text-light" href="">XL</a><br>
+                <p class="fs-4 text-info pt-3">USD: .99.99</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-5">
-          <h3 class="fs-5 text-success pt-5">TOP OF THE DAY</h3>
-          <h1 class="fs-1 fw-bold text-light pt-3">BACK PRINTED BLACK <br>FULL SLEEVE T-SHIRT</h1>
-          <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
-          <p style="text-align: justify;" class="fs-5  pt-4  ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta iste omnis voluptatibus incidunt! Vero unde dolore ratione? Fugiat aliquam quidem alias quo earum iste eligendi velit hic! Harum, minima reprehenderit.</p>
-          <p style="text-align: justify;" class="fs-5  pt-2  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, perferendis exercitationem fuga est reiciendis assumenda laudantium dolore dolorem dignissimos mollitia illum sint voluptates unde eligendi nesciunt officia officiis autem! Culpa.</p>
-          <h5 class="fs-4 text-secondary pt-4">Choose Your Size</h5>
-          <a style="text-decoration: none pt-3;" class="active text-light" href="">S</a> | <a style="text-decoration: none;" class="active text-light" href="">M</a> | <a style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;" class="text-light" href="">XL</a><br>
-          <button class="btn p-2 mt-3 btn-outline-warning bg-secondary text-light fs-5 fw-bold">ADD TO CART</button>
+      </div>
+    </div>
+  </section>
+  <!-- top of the day -->
+  <section class="container-fluid top-sec p-5">
+    <div class="row ps-5 pe-5">
+      <div class="col-lg-5">
+        <img class="pt-5" width="100%" height="700px" src="./IMAGES/top.jpg" alt="">
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5">
+        <h3 class="fs-5 text-success pt-5">TOP OF THE DAY</h3>
+        <h1 class="fs-1 fw-bold text-light pt-3">BACK PRINTED BLACK <br>FULL SLEEVE T-SHIRT</h1>
+        <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+        <p style="text-align: justify;" class="fs-5  pt-4  ">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Soluta iste omnis voluptatibus incidunt! Vero unde dolore ratione? Fugiat aliquam quidem alias quo earum
+          iste eligendi velit hic! Harum, minima reprehenderit.</p>
+        <p style="text-align: justify;" class="fs-5  pt-2  ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Placeat, perferendis exercitationem fuga est reiciendis assumenda laudantium dolore dolorem dignissimos
+          mollitia illum sint voluptates unde eligendi nesciunt officia officiis autem! Culpa.</p>
+        <h5 class="fs-4 text-secondary pt-4">Choose Your Size</h5>
+        <a style="text-decoration: none pt-3;" class="active text-light" href="">S</a> | <a
+          style="text-decoration: none;" class="active text-light" href="">M</a> | <a style="text-decoration: none;"
+          class="text-light" href="">L</a> | <a style="text-decoration: none;" class="text-light" href="">XL</a><br>
+        <button type="button" class="btn p-2 mt-3 btn-outline-warning bg-secondary text-light fs-5 fw-bold">ADD TO
+          CART</button>
+      </div>
+    </div>
+  </section>
+  <!-- weekend sale  -->
+  <section class="container-fluid week-sec p-5">
+    <h1 id="h1-week" class="fs-1 fw-bold d-flex justify-content-center p-5">WEEKEND <span id="sp-week"> 40%</span>SALE
+    </h1>
+    <div style="text-align: center;" class="row">
+      <div class="col-lg-4">
+        <a class="" data-bs-toggle="modal" data-bs-target="#exampleModal0" href=""><img width="100%" height="600px"
+            src="./IMAGES/w1.jpg" alt=""></a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+              <div class="modal-header bg-secondary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">PANTS AND SHIRT</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                  style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                  style="text-decoration: none;" class="text-light" href="">L</a> | <a style="text-decoration: none;"
+                  class="text-light" href="">XL</a><br>
+                <p class="fs-4 text-info pt-3">USD: .99.99</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
-     </section>
-     <!-- weekend sale  -->
-      <section class="container-fluid week-sec p-5">
-        <h1 id="h1-week" class="fs-1 fw-bold d-flex justify-content-center p-5">WEEKEND <span id="sp-week"> 40%</span>SALE</h1>
-        <div style="text-align: center;" class="row">
-          <div class="col-lg-4">
-            <a class="" href=""><img width="100%" height="600px" src="./IMAGES/w1.jpg" alt=""></a>
+        <!--  -->
+        <h5 class="pt-4 fw-bold fs-3 text-warning">PANTS & SHIRT</h5>
+        <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;"
+          class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> |
+        <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
+        <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+      </div>
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <a class="mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal2" href=""><img width="100%"
+                height="300px" src="./IMAGES/w2.jpg" alt=""></a>
             <!--  -->
-           
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content bg-secondary">
+                  <div class="modal-header bg-secondary">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">PREMIUM BAGS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                      style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                      style="text-decoration: none;" class="text-light" href="">L</a> | <a
+                      style="text-decoration: none;" class="text-light" href="">XL</a><br>
+                    <p class="fs-4 text-info pt-3">USD: .99.99</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!--  -->
-            <h5 class="pt-4 fw-bold fs-3 text-warning">PANTS & SHIRT</h5>
-            <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;" class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
+            <h5 class="pt-4 fw-bold fs-3 text-warning">PREMIUM BAGS</h5>
+            <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;"
+              class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a>
+            | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
             <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
           </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-6">
-                <a class="mt-3" href=""><img width="100%" height="300px" src="./IMAGES/w2.jpg" alt=""></a>
-                <h5 class="pt-4 fw-bold fs-3 text-warning">PREMIUM BAGS</h5>
-                <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;" class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
-                <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
-              </div>
-              <div class="col-lg-6">
-                <a class="mt-3" href=""><img width="100%" height="300px" src="./IMAGES/w3.jpg" alt=""></a>
-                <h5 class="pt-4 fw-bold fs-3 text-warning">JACKETS</h5>
-                <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;" class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
-                <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <a class="mt-3" href=""><img width="100%" height="300px" src="./IMAGES/w4.jpg" alt=""></a>
-                  <h5 class="pt-4 fw-bold fs-3 text-warning">TOPS & PANTS</h5>
-                  <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;" class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
-                  <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
-                </div>
-                <div class="col-lg-6">
-                  <a class="mt-3" href=""><img width="100%" height="300px" src="./IMAGES/w5.jpg" alt=""></a>
-                  <h5 class="pt-4 fw-bold fs-3 text-warning">T-SHIRT</h5>
-                  <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;" class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
-                  <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+          <div class="col-lg-6">
+            <a class="mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal3" href=""><img width="100%"
+                height="300px" src="./IMAGES/w3.jpg" alt=""></a>
+            <!--  -->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content bg-secondary">
+                  <div class="modal-header bg-secondary">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">JACKETS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                      style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                      style="text-decoration: none;" class="text-light" href="">L</a> | <a
+                      style="text-decoration: none;" class="text-light" href="">XL</a><br>
+                    <p class="fs-4 text-info pt-3">USD: .99.99</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
                 </div>
               </div>
             </div>
+            <!--  -->
+            <h5 class="pt-4 fw-bold fs-3 text-warning">JACKETS</h5>
+            <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a style="text-decoration: none;"
+              class="active text-dark" href="">M</a> | <a style="text-decoration: none;" class="text-dark" href="">L</a>
+            | <a style="text-decoration: none;" class="text-dark" href="">XL</a><br>
+            <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a class="mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal4" href=""><img width="100%"
+                  height="300px" src="./IMAGES/w4.jpg" alt=""></a>
+              <!--  -->
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bg-secondary">
+                    <div class="modal-header bg-secondary">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">TOPS & PANTS</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                        style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                        style="text-decoration: none;" class="text-light" href="">L</a> | <a
+                        style="text-decoration: none;" class="text-light" href="">XL</a><br>
+                      <p class="fs-4 text-info pt-3">USD: .99.99</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <h5 class="pt-4 fw-bold fs-3 text-warning">TOPS & PANTS</h5>
+              <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a
+                style="text-decoration: none;" class="active text-dark" href="">M</a> | <a
+                style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;"
+                class="text-dark" href="">XL</a><br>
+              <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+            </div>
+            <div class="col-lg-6">
+              <a class="mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal5" href=""><img width="100%"
+                  height="300px" src="./IMAGES/w5.jpg" alt=""></a>
+              <!--  -->
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bg-secondary">
+                    <div class="modal-header bg-secondary">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">T-SHIRT</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <a style="text-decoration: none;" class="active text-light" href="">S</a> | <a
+                        style="text-decoration: none;" class="active text-light" href="">M</a> | <a
+                        style="text-decoration: none;" class="text-light" href="">L</a> | <a
+                        style="text-decoration: none;" class="text-light" href="">XL</a><br>
+                      <p class="fs-4 text-info pt-3">USD: .99.99</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <h5 class="pt-4 fw-bold fs-3 text-warning">T-SHIRT</h5>
+              <a style="text-decoration: none;" class="active text-dark" href="">S</a> | <a
+                style="text-decoration: none;" class="active text-dark" href="">M</a> | <a
+                style="text-decoration: none;" class="text-dark" href="">L</a> | <a style="text-decoration: none;"
+                class="text-dark" href="">XL</a><br>
+              <h2 class="fs-5 text-secondary pt-3">USD: 112.91</h2>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <section id="foot" class="container-fluid footer-sec p-5">
+    <h1 class="text-center text-light fs-2 fw-bold p-3">SUBSCRIBE TO OUR <span class="text-warning">NEWSLETTER</span>
+    </h1>
+    <h5 class="text-center fs-4 text-light p-3">Don't miss new sales and discounts!</h5>
+    <h5 class="text-center p-3"><input class="li-foot" type="email" placeholder="ENTER YOUR EMAIL ADDRESS HERE &#8594;"
+        name="" id=""></h5>
+    <div class="d-flex justify-content-between align-items-center flex-wrap pt-3">
+      <a style="text-decoration: none;" href="#header-home">
+        <h1 class="text-warning fs-5">FASHIONISTA</h1>
+      </a>
+      <ul>
+        <li class="list-foot"><a class="link-foot" href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="list-foot"><a class="link-foot" href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="list-foot"><a class="link-foot" href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+      </ul>
+      <a class="link-foot" href="#header-home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </section>
   </div>
 </body>
 <!-- bootstrap script link  -->
